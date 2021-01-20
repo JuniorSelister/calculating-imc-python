@@ -10,8 +10,6 @@ conv_peso = float(peso)
 conv_alt = float(altura)
 
 imc = conv_peso / (pow(conv_alt, 2))
-#
-#  24.99 = 1.76, 2 = 3.0976 -> 24.99 * 3.0976 = peso
 
 def pesoIdeal(imc):
 
